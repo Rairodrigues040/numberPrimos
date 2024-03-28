@@ -42,7 +42,7 @@ function meuScopo(){
 
     function limparCampos() {
         document.querySelector('.valor').value = '';
-        result.innerHTML = ' <br/>Resultado';
+        result.innerHTML = '';
     }
 
     calcular.addEventListener('click', calcNumber);
